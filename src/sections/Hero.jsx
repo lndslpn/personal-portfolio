@@ -1,14 +1,16 @@
 import '../index.css';
 import '../App.css'; 
 import Typewriter from 'typewriter-effect';
-// import { ReactComponent as LinkedInIcon } from '../assets/linkedin.png';
-// import { ReactComponent as GitHubIcon } from '../assets/github.png';
+import github from '../assets/github.png';
+import resume from '../assets/resume.pdf';
+import linkedin from '../assets/linkedin.png';
+import pfp from '../assets/pfp.jpg';
 
 export default function Hero() {
     return (
       <section id="top" className="scroll-mt-20 bg-background min-h-[80vh] flex flex-col items-center justify-center text-center px-6">
         <img
-          src="/src/assets/pfp.jpg"
+          src={pfp}
           alt="Landys Lepine"
           className="h-50 w-50 rounded-full object-cover ring-4 ring-brand/20 ring-browntxt"
         />
@@ -30,23 +32,23 @@ export default function Hero() {
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
 
-            <a href="/src/assets/resume.pdf" target="_blank" rel="noreferrer" 
+            <a href={resume} target="_blank" rel="noreferrer" 
             className="inline-flex h-10 w-20 items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn text-browntxt text-sm shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
               Resume
             </a>
 
             <a href="https://www.linkedin.com/in/landys-lepine-16267725a/" target="_blank" rel="noreferrer" 
             className="inline-flex h-10 w-20 items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
-            <img src="/src/assets/linkedin.png" alt="LinkedIn" className="h-10 w-10" />
+            <img src={linkedin} alt="LinkedIn" className="h-10 w-10" />
             </a>
 
             <a href="https://github.com/lndslpn" target="_blank" rel="noreferrer" 
             className="inline-flex h-10 w-20 items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn text-browntxt text-sm font-medium shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
-              <img src="/src/assets/github.png" alt="LinkedIn" className="h-8 w-8" />
+              <img src={github} alt="LinkedIn" className="h-8 w-8" />
             </a>
 
             <a href="mailto:landys@ualberta.ca" 
-            className="inline-flex h-10 w-20 src=/src/assets/pfp.jpg items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn text-browntxt text-sm font-medium shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
+            className="inline-flex h-10 w-20 items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn text-browntxt text-sm font-medium shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
               Email
             </a>
 
