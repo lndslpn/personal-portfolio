@@ -1,2 +1,1 @@
-WIP
-Come say hi: https://landyslepine.ca/
+Come say hi to my WIP: https://landyslepine.ca/
