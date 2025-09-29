@@ -13,10 +13,38 @@ export default function About() {
         </h1>
 
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 place-items-center">
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80" />
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80" />
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80" />
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80" />
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80">
+            <p className="mt-1 text-2xl text-center font-inria text-browntxt">
+              STUDENT
+            </p>
+            <p className="mt-1 text-xl text-center font-inria text-tantxt">
+              Always learning
+            </p>  
+          </div>
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80">
+            <p className="mt-1 text-2xl text-center font-inria text-browntxt">
+              DEVELOPER
+            </p>
+            <p className="mt-1 text-xl text-center font-inria text-tantxt">
+              Always creating
+            </p>  
+          </div>
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80">
+            <p className="mt-1 text-2xl text-center font-inria text-browntxt">
+              COMMUNITY-DRIVEN
+            </p>  
+            <p className="mt-1 text-xl text-center font-inria text-tantxt">
+              Always prioritizing
+            </p>       
+          </div>
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75 hover:opacity-80">
+            <p className="mt-1 text-2xl text-center font-inria text-browntxt">
+              COMMUNITY-DRIVEN
+            </p>  
+            <p className="mt-1 text-xl text-center font-inria text-tantxt">
+              Always prioritizing
+            </p>  
+          </div>
         </div>
 
       </section>

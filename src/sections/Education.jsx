@@ -13,7 +13,9 @@ export default function Education() {
         </h1>
 
         <div className="mt-10 place-items-center">
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-125 w-250" />
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-125 w-250">
+          <span>Python</span>
+          </div>
         </div>
 
       </section>

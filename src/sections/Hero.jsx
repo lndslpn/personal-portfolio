@@ -12,7 +12,7 @@ export default function Hero() {
         <img
           src={pfp}
           alt="Landys Lepine"
-          className="h-50 w-50 rounded-full object-cover ring-4 ring-brand/20 ring-browntxt"
+          className="h-50 w-50 rounded-full object-cover ring-3 ring-brand/20 ring-browntxt"
         />
         <h1 className="mt-6 text-4xl font-inria text-name">
           Landys Lepine
