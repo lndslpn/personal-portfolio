@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Theme Tokens */
+@theme {
+  /* Colors */
+  --color-browntxt: #564643;
+  --color-tantxt: #9B9175;
+  --color-tanbtn: #B7B7A6;
+  --color-background: #DDDDD4;
+  --color-imagebrdr: #C4BCA5;
+  --color-name: #382D2B;
+
+  /* Font Styles */
+  --font-inria: "Inria Sans", ui-sans-serif, system-ui, sans-serif;
+
+}
+
+html { scroll-behavior: smooth; }
+
+/* @media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+} */
