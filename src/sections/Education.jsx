@@ -12,9 +12,8 @@ export default function Education() {
           Education
         </h1>
 
-        <div className="mt-10 grid grid-cols-1 gap-12 sm:grid-cols-1 lg:grid-cols-2 place-items-center">
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-75 w-150" />
-          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-75 w-150" />
+        <div className="mt-10 place-items-center">
+          <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-125 w-250" />
         </div>
 
       </section>
