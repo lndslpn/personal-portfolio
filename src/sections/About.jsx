@@ -12,7 +12,7 @@ export default function About() {
               About Me
         </h1>
 
-        <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 place-items-center">
+        <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 place-items-center">
           <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75" />
           <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75" />
           <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-6 h-100 w-75" />

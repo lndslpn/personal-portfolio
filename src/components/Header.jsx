@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import initials from '../assets/initials.png';
 
 export default function Navbar() {
 
@@ -32,7 +33,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-2">
         <div className="flex h-25 items-center justify-between">
           <a href="#top" className="flex items-center gap-2">
-            <img src="/src/assets/initials.png" alt="LinkedIn" className="h-24 w-24" />
+            <img src={initials} alt="LinkedIn" className="h-24 w-24" />
           </a>
 
           {/* Desktop nav */}
