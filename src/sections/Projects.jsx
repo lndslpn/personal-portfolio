@@ -6,7 +6,7 @@ export default function Projects() {
       <section id="projects" className="scroll-mt-20 bg-background min-h-[80vh] flex flex-col items-left justify-center text-center px-6">
 
     <p className="mt-3 text-lg text-left font-inria text-tantxt">
-        Personal
+        Software
     </p>
     <h1 className="text-4xl text-left font-inria text-browntxt">
         Projects
