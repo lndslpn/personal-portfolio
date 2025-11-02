@@ -10,36 +10,30 @@ Date accessed: Nov 2 2025
 
 export default function Experience() {
   useEffect(() => {
-    // Query AFTER mount (so DOM exists)
     const container = document.querySelector('.counters');
     if (!container) return;
 
     const counters = container.querySelectorAll('[data-count]');
     if (!counters.length) return;
 
-    // Local flag that persists inside this effect
     let activated = false;
 
     const onScroll = () => {
-      const y = window.pageYOffset; // explicit global
+      const y = window.pageYOffset;
 
-      // Trigger when the box is near entering the viewport
+      // Triggered when the counter box is near entering the viewport
       if (y > container.offsetTop - container.offsetHeight - 200 && !activated) {
         counters.forEach((counter) => {
-          counter.textContent = '0'; // strings for text nodes
+          counter.textContent = '0';
           let count = 0;
 
           const target = parseInt(counter.getAttribute('data-count') || '0', 10);
-
-          // If you want slower/faster, change this duration (ms)
-          const DURATION_MS = 1500; // try 2000–3000 to slow down
-          const stepDelay = Math.max(15, Math.floor(DURATION_MS / Math.max(1, target)));
 
           function updateCount() {
             if (count < target) {
               count += 1;
               counter.textContent = String(count);
-              setTimeout(updateCount, stepDelay);
+              setTimeout(updateCount, 80);
             } else {
               counter.textContent = String(target);
             }
@@ -48,7 +42,7 @@ export default function Experience() {
         updateCount();
         });
 
-        activated = true; // set after loop
+        activated = true;
       } else if (
         (y < container.offsetTop - container.offsetHeight - 400 || y === 0) &&
         activated
@@ -61,7 +55,7 @@ export default function Experience() {
     };
 
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll(); // run once in case already in view
+    onScroll(); // run once counters are in view
 
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
