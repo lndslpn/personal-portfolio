@@ -188,7 +188,7 @@ export default function Experience() {
           <p className="text-lg text-left font-inria text-browntxt">University of Alberta</p>
           <p className="text-lg text-left font-inria text-browntxt">Academic Support Tutor</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Overview</p>
-          <p className="text-sm text-left font-inria text-white">Employed through First Peoples House at UofA to tutor students in calculus and programming courses.</p>
+          <p className="text-sm text-left font-inria text-white">Employed through First Peoples House at the UofA to tutor students in calculus and programming courses.</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Impact</p>
           <ul className="list-disc text-left pl-5 text-sm font-inria text-white">
                 <li></li>

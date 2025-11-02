@@ -18,9 +18,9 @@ export default function Education() {
             <div className="flex items-start justify-between gap-3">
               <div className="space-y-1">
                 <p className="text-lg font-inria text-browntxt">Bachelor of Science</p>
-                <p className="text-lg font-inria text-browntxt">Honors Computer Science</p>
+                <p className="text-lg font-inria text-browntxt">Honors Computing Science</p>
               </div>
-              <p className="text-md font-inria text-browntxt">Sep 2022 - Dec 2027</p>
+              <p className="text-md font-inria text-browntxt">2022 - 2027</p>
             </div>
 
             <div className="mt-6 space-y-2">
