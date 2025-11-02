@@ -1,7 +1,7 @@
 import '../index.css';
 import '../App.css'; 
 
-export const languages = ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL"];
+export const languages = ["Python", "Java", "C", "C++", "JavaScript", "SQL"];
 export const frontend = ["React", "HTML", "CSS", "Tailwind CSS", "Responsive Web Design"];
 export const backend = ["Django", "Flask", "REST APIs", "OOP", "App Development"];
 export const databases = ["PostgreSQL (Supabase)", "MongoDB", "NoSQL (Firebase)"];
