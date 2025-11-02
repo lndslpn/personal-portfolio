@@ -9,42 +9,62 @@ Date accessed: Nov 2 2025
 */
 
 export default function Experience() {
-  const counters = document.querySelectorAll(".counters [data-count]");
-  const container = document.querySelector(".counters")
-  let activated = false;
+  useEffect(() => {
+    // Query AFTER mount (so DOM exists)
+    const container = document.querySelector('.counters');
+    if (!container) return;
 
-  // Scroll event for the window
-  window.addEventListener("scroll", () => {
-    /* Check to see if page is scrolled to container element 
-    and not activated yet, ignore deprecated pageYOffset*/
-    if(pageYOffset > container.offsetTop - container.offsetHeight - 200 && activated == false) {
-      counters.forEach(counter => {
-        counter.innerText = 0;
-        let count = 0;
+    const counters = container.querySelectorAll('[data-count]');
+    if (!counters.length) return;
 
-        function updateCount() {
-          const target = parseInt(counter.dataset.count);
+    // Local flag that persists inside this effect
+    let activated = false;
 
-          if(count < target) {
-            count ++;
-            counter.innerText = count;
-            setTimeout(updateCount, 10);
+    const onScroll = () => {
+      const y = window.pageYOffset; // explicit global
 
-          } else {
-            counter.innerText = target;
+      // Trigger when the box is near entering the viewport
+      if (y > container.offsetTop - container.offsetHeight - 200 && !activated) {
+        counters.forEach((counter) => {
+          counter.textContent = '0'; // strings for text nodes
+          let count = 0;
+
+          const target = parseInt(counter.getAttribute('data-count') || '0', 10);
+
+          // If you want slower/faster, change this duration (ms)
+          const DURATION_MS = 1500; // try 2000–3000 to slow down
+          const stepDelay = Math.max(15, Math.floor(DURATION_MS / Math.max(1, target)));
+
+          function updateCount() {
+            if (count < target) {
+              count += 1;
+              counter.textContent = String(count);
+              setTimeout(updateCount, stepDelay);
+            } else {
+              counter.textContent = String(target);
+            }
           }
-        }
 
         updateCount();
-        activated = true;
-      });
-    } else if((pageYOffset < container.offsetTop - container.offsetHeight - 400 || pageYOffset === 0) && activated === true) {
-        counters.forEach(counter => {
-          counter.innerText = 0;
+        });
+
+        activated = true; // set after loop
+      } else if (
+        (y < container.offsetTop - container.offsetHeight - 400 || y === 0) &&
+        activated
+      ) {
+        counters.forEach((counter) => {
+          counter.textContent = '0';
         });
         activated = false;
-    }
-  });
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll(); // run once in case already in view
+
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   return (
     <section id="experience" className="scroll-mt-30 bg-background min-h-[80vh] flex flex-col items-left justify-center text-center px-6">
