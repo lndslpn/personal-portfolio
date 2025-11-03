@@ -18,12 +18,14 @@ export default function Education() {
             <div className="flex items-start justify-between gap-3">
               <div className="space-y-1">
                 <p className="text-lg font-inria text-browntxt">Bachelor of Science</p>
-                <p className="text-lg font-inria text-browntxt">Honors Computer Science</p>
+                <p className="text-lg font-inria text-browntxt">Honors Computing Science</p>
               </div>
-              <p className="text-md font-inria text-browntxt">Sep 2022 - Dec 2027</p>
+              <p className="text-md font-inria text-browntxt">2022 - 2027</p>
             </div>
 
-            <div className="mt-6 space-y-2">
+            <p className="mt-3 text-md font-inria text-tantxt">My courses primarily concentrate on the fundamentals of programming and software development, but I also enjoy taking courses in artificial intelligence and machine learning, economics, Canadian Indigenous history, and business fundamentals.</p>
+
+            <div className="mt-3 space-y-2">
               <p className="text-lg font-inria text-browntxt">Honors & Awards:</p>
               <ul className="list-disc pl-5 text-md font-inria text-tantxt">
                 <li>NSERC Undergraduate Student Research Award (2025)</li>

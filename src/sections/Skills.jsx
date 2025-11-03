@@ -1,7 +1,7 @@
 import '../index.css';
 import '../App.css'; 
 
-export const languages = ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL"];
+export const languages = ["Python", "Java", "C", "C++", "JavaScript", "SQL"];
 export const frontend = ["React", "HTML", "CSS", "Tailwind CSS", "Responsive Web Design"];
 export const backend = ["Django", "Flask", "REST APIs", "OOP", "App Development"];
 export const databases = ["PostgreSQL (Supabase)", "MongoDB", "NoSQL (Firebase)"];
@@ -14,7 +14,7 @@ export default function Skills() {
     return (
       <section id="skills" className="scroll-mt-30 bg-background min-h-[80vh] flex flex-col items-left justify-center text-center px-6">
 
-        <p className="mt-3 text-lg text-left font-inria text-tantxt">
+        <p className="mt-10 text-lg text-left font-inria text-tantxt">
             Technical & Soft
         </p>
         <h1 className="text-4xl text-left font-inria text-browntxt">
