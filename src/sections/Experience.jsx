@@ -97,28 +97,28 @@ export default function Experience() {
 
       {/*Experience boxes*/}
       <p className="mt-10 text-xl text-left font-inria text-tantxt">2025</p>
-      <div className="mt-5 grid grid-cols-1 gap-12 sm:grid-cols-1 lg:grid-cols-3 place-items-center">
-        <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-2 h-100 w-75 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-md">
+      <div className="mt-5 grid grid-cols-1 gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+        <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-2 h-105 w-80 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-md">
           <p className="text-sm text-right font-inria text-browntxt">Sep 2025 - Dec 2025</p>
           <p className="text-lg text-left font-inria text-browntxt">TD Bank</p>
           <p className="text-lg text-left font-inria text-browntxt">Software Engineering Intern</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Overview</p>
-          <p className="text-sm text-left font-inria text-white">Worked under the Credit Technology team under the Payments Platform.</p>
+          <p className="text-sm text-left font-inria text-white">Contributed to the Credit Technology team on the Payments Platform, developing and testing backend services for large-scale credit processing.</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Impact</p>
           <ul className="list-disc text-left pl-5 text-sm font-inria text-white">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Delivered Java updates used by 26 M + customers and 1 K + branches.</li>
+                <li>Strengthened reliability with validation & error-handling tests (100 % coverage).</li>
+                <li>Streamlined development flow using GitHub Copilot (~50 % faster).</li>
           </ul>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Tools, Skills, & Concepts Used</p>
-          <p className="text-sm text-left font-inria text-white">Java</p>
+          <p className="text-sm text-left font-inria text-white">Java · JUnit · Mockito · GitHub Copilot · Linux · Postman · Agile · Unit Testing</p>
         </div>
         <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-2 h-100 w-75 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-md">
           <p className="text-sm text-right font-inria text-browntxt">May 2025 - Dec 2025</p>
           <p className="text-lg text-left font-inria text-browntxt">pipikwan pêhtâkwan</p>
           <p className="text-lg text-left font-inria text-browntxt">Software Developer Intern</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Overview</p>
-          <p className="text-sm text-left font-inria text-white">Worked on wâsikan kisewâtisiwin, a LLM used to correct bias/racism towards Indigenous Peoples.</p>
+          <p className="text-sm text-left font-inria text-white">Contributed to wâsikan kisewâtisiwin, an LLM project designed to address bias and racism towards Indigenous Peoples through data-driven fine-tuning and expert review.</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Impact</p>
           <ul className="list-disc text-left pl-5 text-sm font-inria text-white">
                 <li></li>
@@ -126,14 +126,14 @@ export default function Experience() {
                 <li></li>
           </ul>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Tools, Skills, & Concepts Used</p>
-          <p className="text-sm text-left font-inria text-white">Python</p>
+          <p className="text-sm text-left font-inria text-white">Python · Django · REST APIs · PostgreSQL · Docker · AWS (EC2, ECR, CloudWatch) · Nginx · Gunicorn · Cloud Optimization · Full-Stack Development</p>
         </div>
         <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-2 h-100 w-75 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-md">          
           <p className="text-sm text-right font-inria text-browntxt">May 2025 - Aug 2025</p>
           <p className="text-lg text-left font-inria text-browntxt">CIBC</p>
           <p className="text-lg text-left font-inria text-browntxt">Software Developer Co-op</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Overview</p>
-          <p className="mt-2 text-sm text-left font-inria text-white">Worked as a Systems Analyst and Software Developer under the Enterprise Financial Technology.</p>
+          <p className="mt-2 text-sm text-left font-inria text-white">Worked as a Software Developer within Enterprise Financial Technology, automating internal business reporting systems and improving data workflows.</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Impact</p>
           <ul className="list-disc text-left pl-5 text-sm font-inria text-white">
                 <li></li>
@@ -146,7 +146,7 @@ export default function Experience() {
         <div className="rounded bg-imagebrdr shadow-xl ring-1 ring-black/5 p-2 h-100 w-75 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-md">          
           <p className="text-sm text-right font-inria text-browntxt">May 2025 - Aug 2025</p>
           <p className="text-lg text-left font-inria text-browntxt">University of Alberta</p>
-          <p className="text-lg text-left font-inria text-browntxt">AI/ML Research Assistant</p>
+          <p className="text-lg text-left font-inria text-browntxt">Software Engineer & AI/ML Research Assistant</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Overview</p>
           <p className="mt-2 text-sm text-left font-inria text-white">Assisted in Indigenous machine language translation with the Human-Centered Autonomy lab.</p>
           <p className="mt-2 text-md text-left font-inria text-browntxt">Impact</p>

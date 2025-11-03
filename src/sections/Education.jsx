@@ -23,7 +23,9 @@ export default function Education() {
               <p className="text-md font-inria text-browntxt">2022 - 2027</p>
             </div>
 
-            <div className="mt-6 space-y-2">
+            <p className="mt-3 text-md font-inria text-tantxt">My courses primarily concentrate on the fundamentals of programming and software development, but I also enjoyed taking courses in artificial intelligence and machine learning, economics, Indigenous history, and business fundamentals.</p>
+
+            <div className="mt-3 space-y-2">
               <p className="text-lg font-inria text-browntxt">Honors & Awards:</p>
               <ul className="list-disc pl-5 text-md font-inria text-tantxt">
                 <li>NSERC Undergraduate Student Research Award (2025)</li>
