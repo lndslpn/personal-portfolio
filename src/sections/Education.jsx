@@ -4,7 +4,7 @@ import '../App.css';
 export default function Education() {
   return (
     <section id="education" className="scroll-mt-20 bg-background min-h-[80vh] px-6 flex flex-col justify-center">
-      <p className="mt-3 text-lg font-inria text-tantxt">My</p>
+      <p className="mt-10 text-lg font-inria text-tantxt">My</p>
       <h1 className="text-4xl font-inria text-browntxt">Education</h1>
 
       {/* Main card*/}

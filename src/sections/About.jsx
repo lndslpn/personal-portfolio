@@ -5,7 +5,7 @@ export default function About() {
     return (
       <section id="about" className="scroll-mt-30 bg-background min-h-[80vh] flex flex-col items-left justify-center text-center px-6">
 
-        <p className="mt-3 text-lg text-left font-inria text-tantxt">
+        <p className="mt-10 text-lg text-left font-inria text-tantxt">
             Some more information
         </p>
 

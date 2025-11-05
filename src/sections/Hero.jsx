@@ -44,7 +44,7 @@ export default function Hero() {
 
             <a href="https://github.com/lndslpn" target="_blank" rel="noreferrer" 
             className="inline-flex h-10 w-20 items-center justify-center rounded-full px-5 py-2.5 bg-tanbtn text-browntxt text-sm font-medium shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
-              <img src={github} alt="LinkedIn" className="h-8 w-8" />
+              <img src={github} alt="Github" className="h-8 w-8" />
             </a>
 
             <a href="mailto:landys@ualberta.ca" 
