@@ -1,7 +1,7 @@
 import '../index.css';
 import '../App.css'; 
 import linkedin from '../assets/linkedin.png';
-import email from '../assets/email.PNG';
+import email from '../assets/email.png';
 
 export default function Contact() {
     return (
