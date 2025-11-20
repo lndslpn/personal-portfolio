@@ -15,26 +15,29 @@ export default function Contact() {
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-15">
-
-          <a href="https://www.linkedin.com/in/landys-lepine-16267725a/" target="_blank" rel="noreferrer" 
-            className="inline-flex h-50 w-50 items-center justify-center rounded-full px-5 py-2.5 bg-imagebrdr shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
-              <div className="items-center justify-center place-items-center">
-                <img src={linkedin} alt="LinkedIn" className="h-18 w-18" />
-                <p className="font-inria text-browntxt text-md">Connect with me on</p>
-                <b className="font-inria text-browntxt text-xl">LinkedIn</b>
+            <a
+              href="https://www.linkedin.com/in/landys-lepine-16267725a/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex h-50 w-50 flex-col items-center justify-center rounded-full px-5 py-2.5 bg-imagebrdr shadow-xl hover:opacity-80 focus-visible:ring-2 focus-visible:ring-brand/60 font-inria text-center">
+              <div className="flex flex-col items-center justify-center gap-2">
+                <img src={linkedin} alt="LinkedIn" className="h-22 w-22" />
+                <p className="text-browntxt text-md">Connect with me on</p>
+                <b className="text-browntxt text-xl">LinkedIn</b>
               </div>
-          </a>
+            </a>
 
-          <a href="mailto:landys@ualberta.ca" 
-            className="inline-flex h-50 w-50 items-center justify-center rounded-full px-5 py-2.5 bg-imagebrdr shadow-xl hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 font-inria">
-              <div className="items-center justify-center place-items-center">
-                <img src={email} alt="LinkedIn" className="h-18 w-18" />
-                <p className="font-inria text-browntxt text-md">Connect with me over</p>
-                <b className="font-inria text-browntxt text-xl">email</b>
+            <a
+              href="mailto:landys@ualberta.ca"
+              className="flex h-50 w-50 flex-col items-center justify-center rounded-full px-5 py-2.5 bg-imagebrdr shadow-xl hover:opacity-80 focus-visible:ring-2 focus-visible:ring-brand/60 font-inria text-center">
+              <div className="flex flex-col items-center justify-center gap-2">
+                <img src={email} alt="Email" className="h-20 w-20" />
+                <p className="text-browntxt text-md">Connect with me over</p>
+                <b className="text-browntxt text-xl">email</b>
               </div>
-          </a>
+            </a>
 
-        </div>
+            </div>
 
       </section>
     );
