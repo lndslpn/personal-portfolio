@@ -13,7 +13,7 @@ export default function Projects() {
         Projects
     </h1>
 
-    <div className="mt-10 place-items-center">
+    <div className="mt-10 flex flex-col items-center justify-center">
 
       <div className="mt-10 grid grid-cols-1 gap-20 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 place-items-center">
 
