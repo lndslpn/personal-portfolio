@@ -69,7 +69,7 @@ export default function Projects() {
       </div>
 
       {/*Coming Soon*/}
-      <div className="mt-10 w-100 rounded bg-imagebrdr ring-1 ring-black/5 p-6 shadow-md place-items-center">
+      <div className="mt-10 w-75 rounded bg-imagebrdr ring-1 ring-black/5 p-6 shadow-md place-items-center">
         <p className="mt-1 text-2xl text-center font-inria text-browntxt">
           COMING SOON
         </p>  
