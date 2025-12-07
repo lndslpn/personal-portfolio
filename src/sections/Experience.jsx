@@ -93,27 +93,27 @@ export default function Experience() {
       <div className="counters mt-5 rounded bg-imagebrdr shadow-xl p-4 place-items-center gap-12 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
         <div className="counter place-items-center">
           <p><span data-count="24" className="mt-2 text-3xl text-left font-inria text-browntxt">0</span></p>
-          <p className="text-lg text-left font-inria text-tantxt">Months</p>
-          <p className="text-xl text-left font-inria text-tantxt">Software Engineering</p>
-          <p className="text-lg text-left font-inria text-tantxt">Experience</p>
+          <p className="text-lg text-center font-inria text-tantxt">Months</p>
+          <p className="text-xl text-center font-inria text-tantxt">Software Engineering</p>
+          <p className="text-lg text-center font-inria text-tantxt">Experience</p>
         </div>
         <div className="counter place-items-center">
           <p><span data-count="4" className="mt-2 text-3xl text-left font-inria text-browntxt">0</span></p>
-          <p className="text-lg text-left font-inria text-tantxt">Months</p>
-          <p className="text-xl text-left font-inria text-tantxt">AI/ML Research</p>
-          <p className="text-lg text-left font-inria text-tantxt">Experience</p>
+          <p className="text-lg text-center font-inria text-tantxt">Months</p>
+          <p className="text-xl text-center font-inria text-tantxt">AI/ML Research</p>
+          <p className="text-lg text-center font-inria text-tantxt">Experience</p>
         </div>
         <div className="counter place-items-center">
           <p><span data-count="8" className="mt-2 text-3xl text-left font-inria text-browntxt">0</span></p>
-          <p className="text-lg text-left font-inria text-tantxt">Months</p>
-          <p className="text-xl text-left font-inria text-tantxt">Teaching/Mentoring</p>
-          <p className="text-lg text-left font-inria text-tantxt">Experience</p>
+          <p className="text-lg text-center font-inria text-tantxt">Months</p>
+          <p className="text-xl text-center font-inria text-tantxt">Teaching / Mentoring</p>
+          <p className="text-lg text-center font-inria text-tantxt">Experience</p>
         </div>
         <div className="counter place-items-center">
           <p><span data-count="32" className="mt-2 text-3xl text-left font-inria text-browntxt">0</span></p>
-          <p className="text-lg text-left font-inria text-tantxt">Months</p>
-          <p className="text-xl text-left font-inria text-tantxt">Professional Work</p>
-          <p className="text-lg text-left font-inria text-tantxt">Experience</p>
+          <p className="text-lg text-center font-inria text-tantxt">Months</p>
+          <p className="text-xl text-center font-inria text-tantxt">Professional Work</p>
+          <p className="text-lg text-center font-inria text-tantxt">Experience</p>
         </div>
       </div>
 
