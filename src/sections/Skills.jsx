@@ -2,7 +2,7 @@ import '../index.css';
 import '../App.css';
 import { motion } from 'framer-motion';
 
-export const languages = ["Python", "Java", "C", "C++", "JavaScript", "SQL"];
+export const languages = ["Python", "Java", "C", "JavaScript", "SQL"];
 export const frontend = ["React", "HTML", "CSS", "Tailwind CSS", "Responsive Web Design"];
 export const backend = ["Django", "Flask", "REST APIs", "OOP", "App Development"];
 export const databases = ["PostgreSQL (Supabase)", "MongoDB", "NoSQL (Firebase)"];
